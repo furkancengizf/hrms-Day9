@@ -22,9 +22,9 @@ public class CloudManager implements CloudService{
 
     public CloudManager() {
         Map<String, String> valuesMap = new HashMap<>();
-        valuesMap.put("cloud_name","coder-group" );
-        valuesMap.put("api_key", "778744187688522" );
-        valuesMap.put("api_secret","oeIxcWkvIxAl7Ey5PQeTCy5mD74" );
+        valuesMap.put("cloud_name","codifybalance" );
+        valuesMap.put("api_key", "476932977549833" );
+        valuesMap.put("api_secret","SVh_CnlCZFwNEM_r7iy1gyDCcXA" );
         cloudinary = new Cloudinary(valuesMap);
     }
 
